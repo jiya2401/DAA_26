@@ -3,7 +3,7 @@
 //  Greedy       O(n log n)       O(1)           Picks largest coin first
 //                                                (not always optimal)
 //  DP           O(n * amount)    O(n * amount)  Builds full table,
-//                                                always optimal
+//                                                always optimal 
 
 #include <iostream>
 #include <vector>
