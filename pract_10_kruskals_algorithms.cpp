@@ -1,4 +1,15 @@
-#include <iostream>
+// Part of code                         Complexity
+// ---------------------------------------------------
+// Reading E edges                      O(E)
+// Initializing parent array            O(V)
+// std::sort() on E edges               O(E log E)
+// Processing up to E edges             O(E log V)
+// ---------------------------------------------------
+// Overall                              O(E log E)
+
+// Time Complexity: O(E log E)
+
+#include <iostream> 
 #include <vector>
 #include <algorithm>
 #include <chrono>
